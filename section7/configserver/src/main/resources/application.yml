@@ -9,18 +9,13 @@ spring:
       server:
         # native:
           # search-locations: "classpath:/config"
-          # search-locations: "file:///Users//ckuninty/Documents//config"
+          # search-locations: "file:///Users//ckuninty//Documents//config"
         git:
-          uri: "https://github.com/CharantejaK/microservice-config-server"
+          uri: "https://github.com/CharantejaK/microservice-config-server.git"
           default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "guest"
-    password: "guest"
 
 management:
   endpoints:
